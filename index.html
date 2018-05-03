@@ -12,8 +12,7 @@
       gtag('config', 'UA-117760164-1');
     </script>
 
-      <link rel="stylesheet" href="styles/basic-styles.css">
-      <link rel="stylesheet" href="styles/custom-position-styles.css">   
+      <link rel="stylesheet" href="styles/new-styles.css">
       <meta property="fb:app_id" content="APPID"/>
       <script>window.twttr = (function(d, s, id) {
          var js, fjs = d.getElementsByTagName(s)[0],
@@ -62,12 +61,22 @@
              <li><a href="contact.html">Contact Us</a></li>
          </ul>
       </nav>
+    <aside class="email">
+        <form name="emailList" onsubmit="capture()">
+        <label>
+            Enter your email address to subscribe to our monthly newsletter:
+            <input type="text" name="name" value="email">
+        </label>
+        <button onclick="capture()">Enter</button>
+        <script src="js/form-handler.js"></script>
+    </form>
+   </aside>
    <article>
     <section>
      <p></p>
     </section>
   </article>
-  <aside>
+  <aside class="nav">
           <ul>
               <li><a href="index.html">Home</a></li>
               <li>About Us</li>
@@ -93,7 +102,7 @@
       <a class="twitter-share-button"
       href="https://twitter.com/intent/tweet?text=Energy">
       Tweet</a>
-      <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Frubythornne.github.io%2Fcats%2Findex.html&layout=button&size=small&mobile_iframe=true&width=59&height=20&appId" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Frubythornne.github.io%2Fcats%2Findex.html&layout=button&size=small&mobile_iframe=true&width=59&height=20&appId" width="59" height="20" style="border:none;overflow:hidden" s crolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
   </footer>
 </body>
 </html>

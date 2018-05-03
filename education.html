@@ -12,8 +12,7 @@
       gtag('config', 'UA-117760164-1');
     </script>
 
-      <link rel="stylesheet" href="styles/basic-styles.css">
-      <link rel="stylesheet" href="styles/custom-position-styles.css">   
+      <link rel="stylesheet" href="styles/new-styles.css">
       <meta property="fb:app_id" content="APPID"/>
       <script>window.twttr = (function(d, s, id) {
          var js, fjs = d.getElementsByTagName(s)[0],
@@ -51,6 +50,17 @@
           <figure>
           </figure>
     </header>
+    <aside class="email">
+        <form name="emailList" onsubmit="capture()">
+        <label>
+            Enter your email address to subscribe to our monthly newsletter:
+            <input type="text" name="name" value="email">
+        </label>
+        <button onclick="capture()">Enter</button>
+        <script src="js/form-handler.js"></script>
+    </form>
+   </aside>
+    
       <nav>
          <ul>
              <li><a href="index.html">Home</a></li>
@@ -68,7 +78,7 @@
      <p></p>
     </section>
   </article>
-        <aside>
+        <aside class="nav">
           <ul>          
               <li>Energy Literacy</li>
               <li>Energy Certificate - UF Edge Program</li>
