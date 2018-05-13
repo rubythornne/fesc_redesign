@@ -1,5 +1,5 @@
 
-$background-color: #F88017;
+$background: #F88017;
 * {margin: 0;
    padding: 0;}
 
@@ -15,7 +15,7 @@ header {
     border: 5rem;
     padding: 2rem 0rem 1rem 0rem;   
     width: 79.7%; 
-    background-color: #F88017;
+    background-color: $background;
     color: black; 
     font: bold;
     text-align: center;
