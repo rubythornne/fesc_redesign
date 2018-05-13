@@ -13,25 +13,30 @@ header {
     position: static;  
     box-sizing: content-box;      
     border: 5rem;
+    border-radius:  1rem;
     padding: 2rem 0rem 1rem 0rem;   
-    width: 79.7%; 
+    width: 100%; 
     background-color: $background;
     color: black; 
     font: bold;
     text-align: center;
 }
 
-ul.navbar { 
-    position: relative;  
-    font-size: 0.8rem;
-    float: left;
+.navbar navbar-expand-lg navbar-light bg-light { 
+    border-radius:  1rem;
     background-color: #F88017;
-    list-style-type: none;
-    overflow: hidden;  
     color: #663399;  
     font-family: Arial, sans-serif;
-    width: 79.7%; 
+    width: 100%; 
     text-align: center;
+}
+
+.card {
+    width: 20%;
+}
+
+section {
+float: right;
 }
 
 aside .email {
@@ -39,7 +44,7 @@ aside .email {
     padding: 1em;
     border: 1px solid #168EF7;
     clear: both;
-    float: right;
+    float: right;    
 }
 
 body {
@@ -60,7 +65,8 @@ p {
 }
 
 footer {
-    width: 79.7%; 
+    width: 100%; 
+    border-radius:  1rem;
     background-color: #347C17;
     text-align: center;
     padding: 0.8rem 0.5rem 0.8rem 0.5rem;
