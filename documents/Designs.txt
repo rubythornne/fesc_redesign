@@ -1,0 +1,31 @@
+Design #1
+
+1. Will it take a little, lot, or absurd amount of work to build this feature/design? 
+A. This would take minimal time.
+2. Are there other options for similar result with less work?
+A. There are several ways to do this, some not so good for responsive design.
+3. Is it a good development choice? Do you have any concerns with it?
+A. I don't have any concerns with this design, it is fairly simple and creates a unique design feel.
+4. What would be the first dev step you would try when building? Ex: “Add border radius to curve the edges” or “Something with SVGs”. This doesn't have to be terribly specific, just do your best. 
+A. I would start with an SVG file that I would apply .css to. This will be more responsive and better stay intact.
+
+Design #2
+1. Will it take a little, lot, or absurd amount of work to build this feature/design? 
+A. This would take minimal time.
+2. Are there other options for similar result with less work?
+A. There are several ways to do this, some that are unnecessary workarounds, including JavaScript workarounds that would take longer to make than necesary.
+3. Is it a good development choice? Do you have any concerns with it?
+A. I don't have any concerns with this design, it is fairly simple and creates a unique design feel.
+4. What would be the first dev step you would try when building? Ex: “Add border radius to curve the edges” or “Something with SVGs”. This doesn't have to be terribly specific, just do your best. 
+A. I would start with adding the formacation HTML tags to the second button. I would use the .css border radius property to the buttons to make the edges round.
+
+Design #3
+
+1. Will it take a little, lot, or absurd amount of work to build this feature/design? 
+A. This seems like a lot of work for filling out a simple form flow.
+2. Are there other options for similar result with less work?
+A. There are several ways to somewhat block a user from using the browser 'back' button, but they are not foolproof. The user can use several work around to get out of the domain.
+3. Is it a good development choice? Do you have any concerns with it?
+A. I think instead of trying to block the user from using the browser's 'back' button, the user can be presented with a friendly note reminding them to use the buttons on the page/rather than the browser buttons.
+4. What would be the first dev step you would try when building? Ex: “Add border radius to curve the edges” or “Something with SVGs”. This doesn't have to be terribly specific, just do your best. 
+A. I would provide the user with a friendly note asking them to use the navigation buttons on the webpage, rather than the browser buttons.
