@@ -3,6 +3,34 @@
 <head>
     <title>Green Energy</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+          
+var data = google.visualization.arrayToDataTable([
+    ['Year', 'Billion Btu'],
+    [2015, 234192], [2014, 226863], [2013, 229666], [2012, 220020], [2011, 222956], [2010, 223518], [2009, 213642], [2008, 195232], [2007, 190489], [2006, 185564], [2005, 183175], [2004, 179462], [2003, 188473], [2002, 174327], [2001, 158038], [2000, 194952], [1998, 205485], [1997, 231308], [1996, 240343], [1995, 220211], [1994, 215563], [1993, 217028], [1992, 230779], [1991, 212955], [1990, 198986], [1989, 232261], [1988, 113802], [1987, 107606], [1986,116356], [1985, 110698], [1984, 108740], [1983,91705], [1982, 104674], [1981, 83117], [1980, 90049], [1979, 69419], [1978, 65357], [1977, 59953], [1976, 56507], [1975, 50007], [1974, 52429], [1973, 56250], [1972, 54389], [1971, 49968], [1970, 51035], [1969, 51489], [1968, 49556]]);
+
+var options = {
+    title: 'Renewable energy production Florida',
+    hAxis: {title: 'Year'},
+    vAxis: {title: 'Billion Btu'},
+    legend: 'none',
+    trendlines: {
+      0: {
+        type: 'polynomial',
+        degree: 4,
+        visibleInLegend: true,
+      }
+    }
+  };
+
+var chart = new google.visualization.ScatterChart(document.getElementById('chart_div'));
+  chart.draw(data, options);  
+}
+</script>
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117760164-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -32,7 +60,7 @@
 
       return t;
         }(document, "script", "twitter-wjs"));
-      </script>
+      </script>>
       <meta property="og:title" content="Green Energy">
       <meta property="og:description" content="Quality images of cats.">
       <meta property="og:image" content="http://storage.stratfordbeaconherald.com/v1/dynamic_resize/sws_path/suns-prod-images/1297949841848_ORIGINAL.jpg?quality=80&size=650x&stmp=1493427619426">
@@ -44,13 +72,14 @@
       <meta name="twitter:description" content="Green Energy.">
       <meta name="twitter:image" content="http://storage.stratfordbeaconherald.com/v1/dynamic_resize/sws_path/suns-prod-images/1297949841848_ORIGINAL.jpg?quality=80&size=650x&stmp=1493427619426">
       <meta name="twitter:card" content="small_image">
+    
  </head>
     <body>
      <header>
        <h1>Headline</h1>
           <figure>
           </figure>
-    </header>
+ </header>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -150,8 +179,12 @@
       </div>
     </div>
   </div>
-</div>  
+</div>
         
+<div class="table">
+    <div id="chart_div"></div>
+</div>
+
    <aside class="email">
         <form name="emailList" onsubmit="capture()">
         <label>
@@ -159,7 +192,6 @@
             <input type="text" name="name" value="email">
         </label>
         <button onclick="capture()">Enter</button>
-        <script src="js/form-handler.js"></script>
     </form>
    </aside>
         
@@ -174,5 +206,6 @@
          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-</body>
+         <script src="js/form-handler.js"></script>
+    </body>
 </html>
