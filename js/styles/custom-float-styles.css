@@ -1,0 +1,17 @@
+/* your styles for float-practice.html here */
+
+section {
+        float:left;
+}
+./ 
+.blue, .orange, .pink {
+                             float:left; 
+}
+
+.black{
+     clear:both;
+}
+
+.black, .yellow, .purple, .green, .red {
+                                float:right;
+}

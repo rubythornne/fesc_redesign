@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Energy Education</title>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Year','Billion Btu'],
+          [2016,804283],
+          [2015,803865],
+          [2014,771379],
+          [2013,757189],
+          [2012,752941],
+          [2011,768009],
+          [2010,788887],
+          [2009,766848],
+          [2008,771702],
+          [2007,788461],
+          [2006,778685],
+          [2005,767622],
+          [2004,745810],
+          [2003,741696],
+          [2002,718136],
+          [2001,684966],
+          [2000,668216],
+          [1999,638966],
+          [1998,639254],
+          [1997,597240],
+          [1996,586291],
+          [1995,571483],
+          [1994,544365],
+          [1993,521176],
+          [1992,501598],
+          [1991,499299],
+          [1990,489741],
+          [1989,472473],
+          [1988,444382],
+          [1987,417862],
+          [1986,398095],
+          [1985,379307],
+          [1984,353246],
+          [1983,329216],
+          [1982,315744],
+          [1981,317921],
+          [1980,295551],
+          [1979,295551],
+          [1978,289031],
+          [1977,270767],
+          [1976,489741],
+          [1975,242096],
+          [1974,235482],
+          [1973,237104],
+          [1972,209665],
+          [1971,188564],
+          [1970,171346],
+          [1969,153032],
+          [1968,135509],
+          [1967,119314],
+          [1966,108610],
+          [1965,95878],
+          [1964,87016],
+          [1963,78258],
+          [1962,71216],
+          [1961,62705]
+        ]);
+          
+var options = {
+          title: 'Electricity total consumption (i.e. sold) Florida',
+          curveType: 'function',
+          legend: { position: 'bottom', 
+          selectionMode: 'multiple',
+          tooltip: {trigger: 'selection'},
+          aggregationTarget: 'category',
+          textStyle: {
+          fontName: 'Times-Roman',
+          fontSize: 18,
+          bold: true,
+          italic: true,
+          color: '#871b47',
+          auraColor: '#d799ae',
+          opacity: 0.8
+    }
+}
+        };
+
+var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+          chart.draw(data, options);
+}
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117760164-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-117760164-1');
+    </script> 
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+      <link rel="stylesheet" href="styles/new-styles.css">
+       <meta charset="utf-8">
+       <meta property="fb:app_id" content="APPID"/>
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <script>window.twttr = (function(d, s, id) {
+         var js, fjs = d.getElementsByTagName(s)[0],
+         t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+
+        t._e = [];
+        t.ready = function(f) {
+        t._e.push(f);
+        };
+
+      return t;
+        }(document, "script", "twitter-wjs"));
+    </script>
+    
+      <meta property="og:title" content="Energy Education">
+      <meta property="og:description" content="Green Energy">
+      <meta property="og:image" content="https://www.ucsusa.org/sites/default/files/styles/large/public/images/2014/08/energy-renewable-geothermal-power-plant.jpg?itok=tBrfRWrt">
+      <meta property="og:image:width" content="350">
+      <meta property="og:image:height" content="235">
+      <meta property="og:url" content="https://rubythornne.github.io/fesc_redesign/">
+      <meta property="og:type" content="website">
+      <meta name="twitter:title" content="Green Energy">
+      <meta name="twitter:description" content="Green Energy.">
+      <meta name="twitter:image" content="https://www.ucsusa.org/sites/default/files/styles/large/public/images/2014/08/energy-renewable-geothermal-power-plant.jpg?itok=tBrfRWrt">
+      <meta name="twitter:card" content="small_image">
+ </head>
+
+    <body>
+    <header>
+       <h1>Headline</h1>
+       <cta headline="Green Energy" copy="Ipsum Lorem"></cta>
+          <figure>
+          </figure>
+    </header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">FESC Research</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="education.html">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Outreach</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">User Facilities</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Energy Industry</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Advisory Board</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+    </ul>
+  </div>
+</nav>
+   <article>
+    <section>
+     <p></p>
+    </section>
+  </article>
+<div id="accordion" role="tablist">
+  <div class="card">
+    <div class="card-header" role="tab" id="headingOne">
+      <h5 class="mb-0">
+        <a data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="true" aria-controls="collapseOne">
+          Energy
+        </a>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+         <ul>          
+              <li>Energy Literacy</li>
+              <li>Energy Certificate - UF Edge Program</li>
+              <li>Energy Education by Decipline</li>
+              <li>Energy Education by Institution</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingTwo">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo">
+          Education
+        </a>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+          <ul> 
+            <li>Free Online Courses</li>
+            <li>Educational Programs and Workshops</li>
+            <li>FESC Educational Projects</li>
+          </ul>
+   </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingThree">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree">
+          Employment        
+        </a>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        <ul>
+              <li>Energy Jobs</li>
+              <li>Nuculear Training Reactor at UF</li>
+              <li>Energy Extension Service</li>
+              <li>Demonstrations</li>
+         </ul>
+    </div>
+    </div>
+  </div>
+</div>
+        
+<div class="table 1">
+    <div id="curve_chart"></div>
+</div>
+
+        
+<aside class="email">
+    <form name="emailList" onsubmit="capture()">
+        <label>
+            Enter your email address to subscribe to our monthly newsletter:
+            <input type="text" name="name" value="email">
+        </label>
+        <button onclick="capture()">Enter</button>
+        <script src="js/form-handler.js"></script>
+    </form>
+</aside>
+ 
+    <footer>
+      <details>
+        <summary>&copy; 2008-2015 || </summary>
+      </details>
+      <a class="twitter-share-button"
+      href="https://twitter.com/intent/tweet?text=Energy">
+      Tweet</a>
+  </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script> 
+        <script src="js/vue.js"></script>
+</body>
+</html>

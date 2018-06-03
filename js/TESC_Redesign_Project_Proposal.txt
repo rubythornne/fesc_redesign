@@ -1,0 +1,45 @@
+FESC Redesign Proposal
+Objectives:
+•	Make the site more responsive to fit better on mobile devices
+•	Make the site more accessible 
+Accessibility audit:
+I tested the site on www.checkmycolours and it failed in these three areas:
+•	Luminosity Contrast Ratio: 66 failures
+•	Brightness difference: 66 failures
+•	Color difference: 69 failures
+I also tested first page on wave.webaim.org and it found 8 images and links missing alternative 
+Mobile friendliness:
+I tested this site on responsivedesignchecker.com and it does not fit on the following devices:
+•	iPhone 3, 4, 5, 6, and 7
+•	Samsung Galaxy 5, 6, and 7
+•	Google Pixel
+•	Nexus 4, 5, and 6
+•	Apple iPad Mini
+•	Apple iPad Retina
+•	Amazon Kindle Fire
+•	Amazon Kindle Fire HD
+•	Nexus 7 and 9
+•	Samsung Galaxy Tab 10
+Performance
+I tested the site on https://webspeedtest.cloudinary.com/results/180410_A3_2ce2104547dea46e7ee55d0cf63d2555. The site received a B grade for speed. It took 4.651 seconds to load.
+I also tested the site on https://www.webpagetest.org/performance_optimization.php?test=180410_A3_2ce2104547dea46e7ee55d0cf63d2555&run=1#first_byte_time and the First Byte Time was 847 ms out of the Targeted 400 ms Target First Byte Time. www.webpagetest.org gave it an F grade for First Byte Time.
+It also gave the site an F grade for having 10/100 leverage browser caching of static assets.
+Overall, the site performance is good, but needs to have some images compressed.
+Functionality
+I tested this site on http://nibbler.silktide.com/ and here are some of the results
+•	A number of the pages are not printer ready.
+•	6 images are being stretched in the browser.
+Nibbler gave the site an overall score of 6.9 out of 10.
+Ease of use: 
+This site is difficult to navigate, especially with multiple navigations options being present on the home page. The link colors on the navigation bars, also make it difficult to see what is available to the users. The bread crumbs do make navigating back to the beginning easier, but the color of the breadcrumb text tends blend in with the back ground color, making it hard to notice. Overall, the site holds a great deal of useful information that could be presented in a more user friendly design.
+User research 
+•	Middle aged higher education employee, works with students in different environments, uses mobile phones and laptops, average salary $90,000.
+•	College student, male, early twenties, average salary $40,000 (including student loans, grants, etc.) Uses mobile devices and tablets.
+•	Government worker, female mid thirties, average salary $55,000, uses laptop and mobile devices.
+Device support necessary:
+This site needs to be made more responsive to fit on iPhones, iPads, Samsung Galaxy phones and tablets.
+Recommendations
+•	Change the site’s color pallet to make it more color blind friendly. Updating the site’s color palette will allow color blind users to read the site better. 
+•	Add alternative text to the images on the site. Updating these images with alternative text would enable users with disabilities to access this site better.
+•	Change the navigation layout to allow user to easily navigate the site. This will allow users to quickly find what it is they are looking for.
+•	Make the site more responsive for mobile users, especially for iPhones, iPads, Samsung phones and tablets. This will enable the mobile users easier access from different/alternative work locations.
