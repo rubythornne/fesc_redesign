@@ -33,6 +33,12 @@
       return t;
         }(document, "script", "twitter-wjs"));
       </script>
+     <script>
+       Vue.component('app-header', {
+       props: ['text'],
+       template: '<header><h1><img src="wind-farms.jpg" alt="Green Energy">{{ text }}</h1></header>'
+       })
+    </script>
       <meta property="og:title" content="Contact">
       <meta property="og:description" content="Contact information.">
       <meta property="og:image" content="http://www.intech-australia.com/wp-content/uploads/2017/09/renewable-energy.png">
@@ -48,6 +54,8 @@
         <body>
     <header>
        <h1>Headline</h1>
+        <app-header text="Green Energy"></app-header>
+
           <figure>
           </figure>
     </header>
