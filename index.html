@@ -3,6 +3,8 @@
 <head>
     <title>Green Energy</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
       <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
       <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
@@ -60,13 +62,8 @@ var chart = new google.visualization.ScatterChart(document.getElementById('chart
 
       return t;
         }(document, "script", "twitter-wjs"));
-      </script>>
-      <script>
-       Vue.component('app-header', {
-       props: ['text'],
-       template: '<header><h1><img src="wind-farms.jpg" alt="Green Energy">{{ text }}</h1></header>'
-       })
-    </script>
+      </script>
+      
       <meta property="og:title" content="Green Energy">
       <meta property="og:description" content="Quality images of cats.">
       <meta property="og:image" content="http://storage.stratfordbeaconherald.com/v1/dynamic_resize/sws_path/suns-prod-images/1297949841848_ORIGINAL.jpg?quality=80&size=650x&stmp=1493427619426">
@@ -83,7 +80,7 @@ var chart = new google.visualization.ScatterChart(document.getElementById('chart
     <body>
      <header>
        <h1>Headline</h1>
-         <app-header text="Green Energy"></app-header>
+       <cta headline="Green Energy" copy="Ipsum Lorem"></cta>
           <figure>
           </figure>
  </header>
@@ -214,5 +211,6 @@ var chart = new google.visualization.ScatterChart(document.getElementById('chart
          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
          <script src="js/form-handler.js"></script>
+         <script src="js/vue.js"></script>
     </body>
 </html>

@@ -124,13 +124,6 @@ var chart = new google.visualization.LineChart(document.getElementById('curve_ch
         }(document, "script", "twitter-wjs"));
     </script>
     
-     <script>
-       Vue.component('app-header', {
-       props: ['text'],
-       template: '<header><h1><img src="wind-farms.jpg" alt="Green Energy">{{ text }}</h1></header>'
-       })
-    </script>
-    
       <meta property="og:title" content="Energy Education">
       <meta property="og:description" content="Green Energy">
       <meta property="og:image" content="https://www.ucsusa.org/sites/default/files/styles/large/public/images/2014/08/energy-renewable-geothermal-power-plant.jpg?itok=tBrfRWrt">
@@ -147,8 +140,7 @@ var chart = new google.visualization.LineChart(document.getElementById('curve_ch
     <body>
     <header>
        <h1>Headline</h1>
-         <app-header text="Green Energy"></app-header>
-
+       <cta headline="Green Energy" copy="Ipsum Lorem"></cta>
           <figure>
           </figure>
     </header>
@@ -276,5 +268,6 @@ var chart = new google.visualization.LineChart(document.getElementById('curve_ch
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script> 
+        <script src="js/vue.js"></script>
 </body>
 </html>

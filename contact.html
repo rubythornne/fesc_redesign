@@ -33,12 +33,6 @@
       return t;
         }(document, "script", "twitter-wjs"));
       </script>
-     <script>
-       Vue.component('app-header', {
-       props: ['text'],
-       template: '<header><h1><img src="wind-farms.jpg" alt="Green Energy">{{ text }}</h1></header>'
-       })
-    </script>
       <meta property="og:title" content="Contact">
       <meta property="og:description" content="Contact information.">
       <meta property="og:image" content="http://www.intech-australia.com/wp-content/uploads/2017/09/renewable-energy.png">
@@ -53,11 +47,10 @@
     </head>
         <body>
     <header>
-       <h1>Headline</h1>
-        <app-header text="Green Energy"></app-header>
+       <cta headline="Green Energy" copy="Ipsum Lorem"></cta>
 
           <figure>
-          </figure>
+        </figure> 
     </header>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -188,7 +181,8 @@
   </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>        
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>  
+    <script src="js/vue.js"></script>
     </div>
 </body>
 </html>
