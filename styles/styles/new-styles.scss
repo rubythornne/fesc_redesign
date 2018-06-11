@@ -1,0 +1,85 @@
+
+$background: #F88017;
+* {margin: 0;
+   padding: 0;}
+
+.clearfix:after { 
+   content: ""; 
+   display: block; 
+   clear: both; 
+}
+
+header {
+    position: static;  
+    box-sizing: content-box;      
+    border: 5rem;
+    border-radius:  1rem;
+    padding: 2rem 0rem 1rem 0rem;   
+    width: 100%; 
+    background-color: $background;
+    color: black; 
+    font: bold;
+    text-align: center;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light { 
+    border-radius:  1rem;
+    background-color: #F88017;
+    color: #663399;  
+    font-family: Arial, sans-serif;
+    width: 100%; 
+    text-align: center;
+}
+
+div .table {
+        padding: 0.9rem 0.9rem 0.8rem 0.5rem;
+        width: 20%;
+}
+
+div .table 2{
+        padding: 0.9rem 0.9rem 0.8rem 0.5rem;
+        width: 20%;
+}
+
+.card {
+    width: 20%;
+}
+
+section {
+float: right;
+}
+
+aside .email {
+    width: 15em;
+    padding: 1em;
+    border: 1px solid #168EF7;
+    clear: both;
+    float: right;    
+}
+
+body {
+  font-size: 100%;
+  font-family: Arial, sans-serif;
+  float: left;
+  background-color: #FFFFC2;
+  &:focus-within,
+  &:hover {color: #168EF7;}
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-weight: lighter;
+  color: #000000;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+footer {
+    width: 100%; 
+    border-radius:  1rem;
+    background-color: #347C17;
+    text-align: center;
+    padding: 0.8rem 0.5rem 0.8rem 0.5rem;
+    font-family: Arial, sans-serif;
+    font-size: 0.7rem; 
+}

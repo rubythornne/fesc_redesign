@@ -1,0 +1,22 @@
+Color Palette
+Parchment: #FFFFC2 – Background 
+Dark Orange: #F88017 – Header/Buttons
+Shamrock Green: #347C17 - Footer
+Black: #000000 – Body Text
+White #FFFFFF – Header Text
+Blue Diamond: - #168EF7 Link Highlight/Buttons
+Spacing:
+Header and Footer and all three pages.
+An accordion style left hand navigation menu on all three pages
+A menu on the top of all three pages placed near the bottom of the header.
+A newsletter sign up field on the Contact Us page (JavaScript)
+One image at the top of each screen, below the header.
+A logo on the top left hand corner of each screen.
+Typography
+Header 1:  Font: Ariel  -  Color: Black: #000000 - Title
+Header 2: Font:  Ariel  – Color - White #FFFFFF – Header Text
+Header 3: Font: Ariel  –  Color: Black: #000000 – Left Side Navigation Bar
+Body Text: Font: Ariel – Color: Black: #000000 – Also, footer text.
+
+
+
